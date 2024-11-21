@@ -45,7 +45,8 @@
       1009,
       1010,
       1011,
-      1012
+      1012,
+      1013
     ],
     "gameTypes": {
       "1001": "noLoss",
@@ -59,7 +60,8 @@
       "1009": "oneLoss",
       "1010": "oneLoss",
       "1011": "noLoss",
-      "1012": "oneLoss"
+      "1012": "oneLoss",
+      "1013": "oneLoss"
     },
     "noLossQueue": [
       {"id": "marvin", "name": "Marvin"},
@@ -67,14 +69,14 @@
       {"id": "roboorikud", "name": "Roboorikud"}
     ],
     "oneLossQueue": [
-      {"id": "warcrime", "name": "Warcrime"},
-      {"id": "pelta-x", "name": "Pelta X"},
-      {"id": "wineeurope", "name": "WineEurope"}
+      {"id": "wineeurope", "name": "WineEurope"},
+      {"id": "lebrobot-james", "name": "LeBROBOT JAMES"}
     ],
     "eliminatedRobots": [
       {"id": "plus-aura", "name": "+aura"},
       {"id": "k4", "name": "K4"},
-      {"id": "mait", "name": "Mait"}
+      {"id": "mait", "name": "Mait"},
+      {"id": "harm", "name": "HARM"}
     ],
     "robotStartingBaskets": {
       "marvin": ["blue", "magenta"],
@@ -84,10 +86,10 @@
       "oopsie": ["blue", "blue"],
       "k4": ["magenta", "magenta"],
       "roboorikud": ["blue", "magenta"],
-      "warcrime": ["magenta", "blue"],
+      "warcrime": ["magenta", "blue", "magenta"],
       "wineeurope": ["blue", "blue"],
       "mait": ["magenta", "blue"],
-      "pelta-x": ["blue", "magenta"]
+      "pelta-x": ["blue", "magenta", "blue"]
     },
     "hasEnded": false
   }
