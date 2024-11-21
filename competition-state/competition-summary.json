@@ -1090,15 +1090,15 @@
         "hasEnded": false,
         "rounds": [
           {
-            "scores": [[], []],
+            "scores": [[], [{"time": 1732216591364, "isValid": true}]],
             "fouls": [[], []],
             "baskets": ["magenta", "blue"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 4993,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1732216586374, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -1163,71 +1163,40 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 1012,
+    "id": 1013,
     "robots": [
-      {"id": "lebrobot-james", "name": "LeBROBOT JAMES"},
-      {"id": "harm", "name": "HARM"}
+      {"id": "warcrime", "name": "Warcrime"},
+      {"id": "pelta-x", "name": "Pelta X"}
     ],
     "startingBaskets": ["magenta", "blue"],
     "isTieAllowed": false,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
-        "scores": [[], []],
+        "scores": [[], [{"time": 1732216591364, "isValid": true}]],
         "fouls": [[], []],
         "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60057,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 4993,
         "timeLimit": 60000,
         "winnerIndex": -1,
-        "runs": [{"startTime": 1732216296241, "endTime": 1732216356298}]
-      },
-      {
-        "scores": [[{"time": 1732216487166, "isValid": true}], []],
-        "fouls": [[], []],
-        "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60001,
-        "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [
-          {"startTime": 1732216390304, "endTime": 1732216431266},
-          {"startTime": 1732216460424, "endTime": 1732216479463}
-        ]
-      },
-      {
-        "scores": [[{"time": 1732216499142, "isValid": true}], []],
-        "fouls": [[], []],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 1624,
-        "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [{"startTime": 1732216496448, "endTime": 1732216498072}]
+        "runs": [{"startTime": 1732216586374, "endTime": null}]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "lebrobot-james", "name": "LeBROBOT JAMES"},
-      "roundWinCount": 2,
-      "roundLossCount": 0,
-      "roundTieCount": 1
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [0.31, -0.59],
-      [-0.31, 0.59],
-      [0.58, 0.65],
-      [-0.58, -0.65],
-      [1.66, -0.67],
-      [-1.66, 0.67],
-      [-1.44, -1.34],
-      [1.44, 1.34],
-      [0.28, -1.29],
-      [-0.28, 1.29]
+      [2.16, -1.4],
+      [-2.16, 1.4],
+      [1.64, 1.43],
+      [-1.64, -1.43],
+      [-2.04, -0.57],
+      [2.04, 0.57],
+      [0.2, -0.91],
+      [-0.2, 0.91],
+      [-1, -0.68],
+      [1, 0.68]
     ]
   }
 }
