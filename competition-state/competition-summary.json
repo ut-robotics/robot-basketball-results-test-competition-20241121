@@ -1027,10 +1027,10 @@
             "baskets": ["magenta", "blue"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 3,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1732216296241, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -1094,82 +1094,40 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 1011,
+    "id": 1012,
     "robots": [
-      {"id": "roboorikud", "name": "Roboorikud"},
-      {"id": "wineeurope", "name": "WineEurope"}
+      {"id": "lebrobot-james", "name": "LeBROBOT JAMES"},
+      {"id": "harm", "name": "HARM"}
     ],
     "startingBaskets": ["magenta", "blue"],
     "isTieAllowed": false,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
-        "scores": [
-          [
-            {"time": 1732215895646, "isValid": true},
-            {"time": 1732215899794, "isValid": true},
-            {"time": 1732215906156, "isValid": true}
-          ],
-          [
-            {"time": 1732215911019, "isValid": true},
-            {"time": 1732215916142, "isValid": true}
-          ]
-        ],
-        "fouls": [[], [{"time": 1732215962302}, {"time": 1732215995748}]],
+        "scores": [[], []],
+        "fouls": [[], []],
         "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60086,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 3,
         "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [
-          {"startTime": 1732215889827, "endTime": 1732215937510},
-          {"startTime": 1732215952004, "endTime": 1732215954295},
-          {"startTime": 1732215978217, "endTime": 1732215981966},
-          {"startTime": 1732216020374, "endTime": 1732216026737}
-        ]
-      },
-      {
-        "scores": [
-          [
-            {"time": 1732216083070, "isValid": true},
-            {"time": 1732216136180, "isValid": true}
-          ],
-          [{"time": 1732216104701, "isValid": true}]
-        ],
-        "fouls": [[{"time": 1732216185396}], [{"time": 1732216111945}]],
-        "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60062,
-        "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [
-          {"startTime": 1732216077253, "endTime": 1732216107060},
-          {"startTime": 1732216129781, "endTime": 1732216148246},
-          {"startTime": 1732216192591, "endTime": 1732216204381}
-        ]
+        "winnerIndex": -1,
+        "runs": [{"startTime": 1732216296241, "endTime": null}]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "roboorikud", "name": "Roboorikud"},
-      "roundWinCount": 2,
-      "roundLossCount": 0,
-      "roundTieCount": 0
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [0.61, 1.26],
-      [-0.61, -1.26],
-      [1.11, -0.6],
-      [-1.11, 0.6],
-      [-0.94, -0.92],
-      [0.94, 0.92],
-      [-1.18, -1.05],
-      [1.18, 1.05],
-      [0.94, -1.11],
-      [-0.94, 1.11]
+      [0.31, -0.59],
+      [-0.31, 0.59],
+      [0.58, 0.65],
+      [-0.58, -0.65],
+      [1.66, -0.67],
+      [-1.66, 0.67],
+      [-1.44, -1.34],
+      [1.44, 1.34],
+      [0.28, -1.29],
+      [-0.28, 1.29]
     ]
   }
 }
