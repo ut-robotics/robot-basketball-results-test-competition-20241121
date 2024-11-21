@@ -3,7 +3,15 @@
   "name": "Test Competition 2024-11-21",
   "robots": [
     {"id": "plus-aura", "name": "+aura"},
-    {"id": "beat-diesel", "name": "Beat Diesel"}
+    {"id": "beat-diesel", "name": "Beat Diesel"},
+    {"id": "k4", "name": "K4"},
+    {"id": "lebrobot-james", "name": "LeBROBOT JAMES"},
+    {"id": "mait", "name": "Mait"},
+    {"id": "marvin", "name": "Marvin"},
+    {"id": "oopsie", "name": "Oopsie"},
+    {"id": "pelta-x", "name": "Pelta X"},
+    {"id": "roboorikud", "name": "Roboorikud"},
+    {"id": "warcrime", "name": "Warcrime"}
   ],
   "tournament": null
 }
