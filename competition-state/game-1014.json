@@ -48,15 +48,24 @@
     },
     {
       "scores": [
-        [{"time": 1732217378831, "isValid": true}],
-        [{"time": 1732217377257, "isValid": true}]
+        [
+          {"time": 1732217378831, "isValid": true},
+          {"time": 1732217426671, "isValid": true}
+        ],
+        [
+          {"time": 1732217377257, "isValid": true},
+          {"time": 1732217426195, "isValid": true}
+        ]
       ],
       "fouls": [[{"time": 1732217395517}], []],
       "baskets": ["blue", "magenta"],
       "hasEnded": false,
       "isConfirmed": false,
       "roundMaxLength": 60000,
-      "runs": [{"startTime": 1732217365255, "endTime": 1732217389047}]
+      "runs": [
+        {"startTime": 1732217365255, "endTime": 1732217389047},
+        {"startTime": 1732217420472, "endTime": 1732217435605}
+      ]
     }
   ],
   "ballPlacement": [
