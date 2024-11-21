@@ -52,7 +52,8 @@
       1016,
       1017,
       1018,
-      1019
+      1019,
+      1020
     ],
     "gameTypes": {
       "1001": "noLoss",
@@ -73,9 +74,10 @@
       "1016": "oneLoss",
       "1017": "noLoss",
       "1018": "oneLoss",
-      "1019": "oneLoss"
+      "1019": "oneLoss",
+      "1020": "firstFinal"
     },
-    "noLossQueue": [{"id": "oopsie", "name": "Oopsie"}],
+    "noLossQueue": [],
     "oneLossQueue": [],
     "eliminatedRobots": [
       {"id": "plus-aura", "name": "+aura"},
@@ -85,14 +87,23 @@
       {"id": "warcrime", "name": "Warcrime"},
       {"id": "lebrobot-james", "name": "LeBROBOT JAMES"},
       {"id": "pelta-x", "name": "Pelta X"},
-      {"id": "wineeurope", "name": "WineEurope"}
+      {"id": "wineeurope", "name": "WineEurope"},
+      {"id": "roboorikud", "name": "Roboorikud"}
     ],
     "robotStartingBaskets": {
-      "marvin": ["blue", "magenta", "blue", "blue", "blue", "magenta"],
+      "marvin": [
+        "blue",
+        "magenta",
+        "blue",
+        "blue",
+        "blue",
+        "magenta",
+        "magenta"
+      ],
       "plus-aura": ["magenta", "blue"],
       "harm": ["blue", "magenta", "blue"],
       "lebrobot-james": ["magenta", "magenta", "magenta", "blue"],
-      "oopsie": ["blue", "blue", "magenta", "magenta"],
+      "oopsie": ["blue", "blue", "magenta", "magenta", "blue"],
       "k4": ["magenta", "magenta"],
       "roboorikud": ["blue", "magenta", "blue", "blue"],
       "warcrime": ["magenta", "blue", "magenta"],
