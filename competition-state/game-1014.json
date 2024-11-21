@@ -10,7 +10,10 @@
   "rounds": [
     {
       "scores": [
-        [{"time": 1732217028139, "isValid": true}],
+        [
+          {"time": 1732217028139, "isValid": true},
+          {"time": 1732217050803, "isValid": false}
+        ],
         [{"time": 1732217033468, "isValid": true}]
       ],
       "fouls": [[], [{"time": 1732216990562}]],
@@ -20,7 +23,7 @@
       "roundMaxLength": 60000,
       "runs": [
         {"startTime": 1732216970739, "endTime": 1732216985988},
-        {"startTime": 1732217017780, "endTime": null}
+        {"startTime": 1732217017780, "endTime": 1732217060762}
       ]
     }
   ],
