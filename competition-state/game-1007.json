@@ -128,9 +128,15 @@
           "robot": {"id": "plus-aura", "name": "+aura"},
           "endTime": 1732214247410,
           "isConfirmed": true
+        },
+        {
+          "startTime": 1732214354069,
+          "didScore": false,
+          "robot": {"id": "lebrobot-james", "name": "LeBROBOT JAMES"},
+          "endTime": 1732214364075
         }
       ]
     ],
-    "robotIndex": 0
+    "robotIndex": 1
   }
 }
