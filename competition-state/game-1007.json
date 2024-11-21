@@ -104,7 +104,17 @@
     "baskets": ["blue", "blue"],
     "minRounds": 3,
     "timeLimit": 10000,
-    "rounds": [],
+    "rounds": [
+      [
+        {
+          "startTime": 1732214087833,
+          "didScore": false,
+          "robot": {"id": "plus-aura", "name": "+aura"},
+          "endTime": 1732214097841,
+          "isConfirmed": true
+        }
+      ]
+    ],
     "robotIndex": 0
   }
 }

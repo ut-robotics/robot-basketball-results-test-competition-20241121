@@ -629,7 +629,17 @@
           "baskets": ["blue", "blue"],
           "scores": [0, 0],
           "timeLimit": 10000,
-          "rounds": [],
+          "rounds": [
+            [
+              {
+                "robot": {"id": "plus-aura", "name": "+aura"},
+                "startTime": 1732214087833,
+                "endTime": 1732214097841,
+                "didScore": false,
+                "isConfirmed": true
+              }
+            ]
+          ],
           "status": {"result": "unknown"}
         }
       }
@@ -791,7 +801,17 @@
       "baskets": ["blue", "blue"],
       "scores": [0, 0],
       "timeLimit": 10000,
-      "rounds": [],
+      "rounds": [
+        [
+          {
+            "robot": {"id": "plus-aura", "name": "+aura"},
+            "startTime": 1732214087833,
+            "endTime": 1732214097841,
+            "didScore": false,
+            "isConfirmed": true
+          }
+        ]
+      ],
       "status": {"result": "unknown"}
     }
   }
