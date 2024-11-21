@@ -6,7 +6,7 @@
   ],
   "startingBaskets": ["blue", "magenta"],
   "isTieAllowed": false,
-  "hasEnded": false,
+  "hasEnded": true,
   "rounds": [
     {
       "scores": [[], []],
@@ -96,7 +96,7 @@
     [1.11, -0.68]
   ],
   "freeThrows": {
-    "hasEnded": false,
+    "hasEnded": true,
     "robots": [
       {"id": "plus-aura", "name": "+aura"},
       {"id": "lebrobot-james", "name": "LeBROBOT JAMES"}
@@ -134,6 +134,22 @@
           "didScore": false,
           "robot": {"id": "lebrobot-james", "name": "LeBROBOT JAMES"},
           "endTime": 1732214364075,
+          "isConfirmed": true
+        }
+      ],
+      [
+        {
+          "startTime": 1732214382687,
+          "didScore": false,
+          "robot": {"id": "plus-aura", "name": "+aura"},
+          "endTime": 1732214385367,
+          "isConfirmed": true
+        },
+        {
+          "startTime": 1732214386751,
+          "didScore": true,
+          "robot": {"id": "lebrobot-james", "name": "LeBROBOT JAMES"},
+          "endTime": 1732214387477,
           "isConfirmed": true
         }
       ]

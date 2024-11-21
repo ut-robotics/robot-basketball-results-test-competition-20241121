@@ -518,7 +518,7 @@
         ],
         "startingBaskets": ["blue", "magenta"],
         "isTieAllowed": false,
-        "hasEnded": false,
+        "hasEnded": true,
         "rounds": [
           {
             "scores": [[], []],
@@ -606,7 +606,13 @@
             ]
           }
         ],
-        "status": {"result": "unknown"},
+        "status": {
+          "result": "won",
+          "winner": {"id": "lebrobot-james", "name": "LeBROBOT JAMES"},
+          "roundWinCount": 0,
+          "roundLossCount": 0,
+          "roundTieCount": 3
+        },
         "ballPlacement": [
           [0, 0],
           [1.73, -0.62],
@@ -621,13 +627,13 @@
           [1.11, -0.68]
         ],
         "freeThrows": {
-          "hasEnded": false,
+          "hasEnded": true,
           "robots": [
             {"id": "plus-aura", "name": "+aura"},
             {"id": "lebrobot-james", "name": "LeBROBOT JAMES"}
           ],
           "baskets": ["blue", "blue"],
-          "scores": [0, 0],
+          "scores": [0, 1],
           "timeLimit": 10000,
           "rounds": [
             [
@@ -661,10 +667,63 @@
                 "didScore": false,
                 "isConfirmed": true
               }
+            ],
+            [
+              {
+                "robot": {"id": "plus-aura", "name": "+aura"},
+                "startTime": 1732214382687,
+                "endTime": 1732214385367,
+                "didScore": false,
+                "isConfirmed": true
+              },
+              {
+                "robot": {"id": "lebrobot-james", "name": "LeBROBOT JAMES"},
+                "startTime": 1732214386751,
+                "endTime": 1732214387477,
+                "didScore": true,
+                "isConfirmed": true
+              }
             ]
           ],
-          "status": {"result": "unknown"}
+          "status": {"result": "won", "winner": 1}
         }
+      },
+      {
+        "id": 1008,
+        "robots": [
+          {"id": "harm", "name": "HARM"},
+          {"id": "oopsie", "name": "Oopsie"}
+        ],
+        "startingBaskets": ["magenta", "blue"],
+        "isTieAllowed": false,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["magenta", "blue"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [-0.04, 1.26],
+          [0.04, -1.26],
+          [-1.32, -1.3],
+          [1.32, 1.3],
+          [-1.74, 0.15],
+          [1.74, -0.15],
+          [0.58, 1.33],
+          [-0.58, -1.33],
+          [0.1, 0.88],
+          [-0.1, -0.88]
+        ]
       }
     ],
     "gameTypes": {
@@ -674,11 +733,10 @@
       "1004": "noLoss",
       "1005": "noLoss",
       "1006": "noLoss",
-      "1007": "oneLoss"
+      "1007": "oneLoss",
+      "1008": "noLoss"
     },
     "noLossQueue": [
-      {"id": "harm", "name": "HARM"},
-      {"id": "oopsie", "name": "Oopsie"},
       {"id": "roboorikud", "name": "Roboorikud"},
       {"id": "wineeurope", "name": "WineEurope"},
       {"id": "marvin", "name": "Marvin"}
@@ -687,15 +745,16 @@
       {"id": "k4", "name": "K4"},
       {"id": "warcrime", "name": "Warcrime"},
       {"id": "mait", "name": "Mait"},
-      {"id": "pelta-x", "name": "Pelta X"}
+      {"id": "pelta-x", "name": "Pelta X"},
+      {"id": "lebrobot-james", "name": "LeBROBOT JAMES"}
     ],
-    "eliminatedRobots": [],
+    "eliminatedRobots": [{"id": "plus-aura", "name": "+aura"}],
     "robotStartingBaskets": {
       "marvin": ["blue", "magenta"],
       "plus-aura": ["magenta", "blue"],
-      "harm": ["blue"],
+      "harm": ["blue", "magenta"],
       "lebrobot-james": ["magenta", "magenta"],
-      "oopsie": ["blue"],
+      "oopsie": ["blue", "blue"],
       "k4": ["magenta"],
       "roboorikud": ["blue"],
       "warcrime": ["magenta"],
@@ -713,7 +772,7 @@
     ],
     "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": false,
-    "hasEnded": false,
+    "hasEnded": true,
     "rounds": [
       {
         "scores": [[], []],
@@ -801,7 +860,13 @@
         ]
       }
     ],
-    "status": {"result": "unknown"},
+    "status": {
+      "result": "won",
+      "winner": {"id": "lebrobot-james", "name": "LeBROBOT JAMES"},
+      "roundWinCount": 0,
+      "roundLossCount": 0,
+      "roundTieCount": 3
+    },
     "ballPlacement": [
       [0, 0],
       [1.73, -0.62],
@@ -816,13 +881,13 @@
       [1.11, -0.68]
     ],
     "freeThrows": {
-      "hasEnded": false,
+      "hasEnded": true,
       "robots": [
         {"id": "plus-aura", "name": "+aura"},
         {"id": "lebrobot-james", "name": "LeBROBOT JAMES"}
       ],
       "baskets": ["blue", "blue"],
-      "scores": [0, 0],
+      "scores": [0, 1],
       "timeLimit": 10000,
       "rounds": [
         [
@@ -856,9 +921,25 @@
             "didScore": false,
             "isConfirmed": true
           }
+        ],
+        [
+          {
+            "robot": {"id": "plus-aura", "name": "+aura"},
+            "startTime": 1732214382687,
+            "endTime": 1732214385367,
+            "didScore": false,
+            "isConfirmed": true
+          },
+          {
+            "robot": {"id": "lebrobot-james", "name": "LeBROBOT JAMES"},
+            "startTime": 1732214386751,
+            "endTime": 1732214387477,
+            "didScore": true,
+            "isConfirmed": true
+          }
         ]
       ],
-      "status": {"result": "unknown"}
+      "status": {"result": "won", "winner": 1}
     }
   }
 }
