@@ -594,14 +594,15 @@
             "scores": [[], []],
             "fouls": [[], [{"time": 1732213759988}]],
             "baskets": ["magenta", "blue"],
-            "hasEnded": false,
-            "isConfirmed": false,
-            "duration": 24045,
+            "hasEnded": true,
+            "isConfirmed": true,
+            "duration": 30026,
             "timeLimit": 30000,
             "winnerIndex": -1,
             "runs": [
               {"startTime": 1732213713054, "endTime": 1732213731398},
-              {"startTime": 1732213747390, "endTime": 1732213753091}
+              {"startTime": 1732213747390, "endTime": 1732213753091},
+              {"startTime": 1732213782281, "endTime": 1732213788262}
             ]
           }
         ],
@@ -618,7 +619,19 @@
           [0.48, -1.38],
           [-1.11, 0.68],
           [1.11, -0.68]
-        ]
+        ],
+        "freeThrows": {
+          "hasEnded": false,
+          "robots": [
+            {"id": "plus-aura", "name": "+aura"},
+            {"id": "lebrobot-james", "name": "LeBROBOT JAMES"}
+          ],
+          "baskets": ["blue", "blue"],
+          "scores": [0, 0],
+          "timeLimit": 10000,
+          "rounds": [],
+          "status": {"result": "unknown"}
+        }
       }
     ],
     "gameTypes": {
@@ -743,14 +756,15 @@
         "scores": [[], []],
         "fouls": [[], [{"time": 1732213759988}]],
         "baskets": ["magenta", "blue"],
-        "hasEnded": false,
-        "isConfirmed": false,
-        "duration": 24045,
+        "hasEnded": true,
+        "isConfirmed": true,
+        "duration": 30026,
         "timeLimit": 30000,
         "winnerIndex": -1,
         "runs": [
           {"startTime": 1732213713054, "endTime": 1732213731398},
-          {"startTime": 1732213747390, "endTime": 1732213753091}
+          {"startTime": 1732213747390, "endTime": 1732213753091},
+          {"startTime": 1732213782281, "endTime": 1732213788262}
         ]
       }
     ],
@@ -767,6 +781,18 @@
       [0.48, -1.38],
       [-1.11, 0.68],
       [1.11, -0.68]
-    ]
+    ],
+    "freeThrows": {
+      "hasEnded": false,
+      "robots": [
+        {"id": "plus-aura", "name": "+aura"},
+        {"id": "lebrobot-james", "name": "LeBROBOT JAMES"}
+      ],
+      "baskets": ["blue", "blue"],
+      "scores": [0, 0],
+      "timeLimit": 10000,
+      "rounds": [],
+      "status": {"result": "unknown"}
+    }
   }
 }
