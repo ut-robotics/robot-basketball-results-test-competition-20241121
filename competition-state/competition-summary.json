@@ -50,10 +50,10 @@
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 6,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1732209737732, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -100,5 +100,42 @@
       "pelta-x": []
     },
     "hasEnded": false
+  },
+  "activeGame": {
+    "id": 1001,
+    "robots": [
+      {"id": "marvin", "name": "Marvin"},
+      {"id": "plus-aura", "name": "+aura"}
+    ],
+    "startingBaskets": ["blue", "magenta"],
+    "isTieAllowed": false,
+    "hasEnded": false,
+    "rounds": [
+      {
+        "scores": [[], []],
+        "fouls": [[], []],
+        "baskets": ["blue", "magenta"],
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 6,
+        "timeLimit": 60000,
+        "winnerIndex": -1,
+        "runs": [{"startTime": 1732209737732, "endTime": null}]
+      }
+    ],
+    "status": {"result": "unknown"},
+    "ballPlacement": [
+      [0, 0],
+      [-0.98, 1.06],
+      [0.98, -1.06],
+      [0.98, 1.01],
+      [-0.98, -1.01],
+      [0.67, -0.49],
+      [-0.67, 0.49],
+      [-0.01, -0.51],
+      [0.01, 0.51],
+      [0.61, -0.99],
+      [-0.61, 0.99]
+    ]
   }
 }
