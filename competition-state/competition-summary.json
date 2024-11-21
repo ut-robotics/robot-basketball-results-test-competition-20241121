@@ -1163,10 +1163,13 @@
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 15249,
+            "duration": 15257,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": [{"startTime": 1732216970739, "endTime": 1732216985988}]
+            "runs": [
+              {"startTime": 1732216970739, "endTime": 1732216985988},
+              {"startTime": 1732217017780, "endTime": null}
+            ]
           }
         ],
         "status": {"result": "unknown"},
@@ -1245,10 +1248,13 @@
         "baskets": ["blue", "magenta"],
         "hasEnded": false,
         "isConfirmed": false,
-        "duration": 15249,
+        "duration": 15257,
         "timeLimit": 60000,
         "winnerIndex": -1,
-        "runs": [{"startTime": 1732216970739, "endTime": 1732216985988}]
+        "runs": [
+          {"startTime": 1732216970739, "endTime": 1732216985988},
+          {"startTime": 1732217017780, "endTime": null}
+        ]
       }
     ],
     "status": {"result": "unknown"},
