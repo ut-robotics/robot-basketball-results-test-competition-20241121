@@ -11,7 +11,8 @@
     {"id": "oopsie", "name": "Oopsie"},
     {"id": "pelta-x", "name": "Pelta X"},
     {"id": "roboorikud", "name": "Roboorikud"},
-    {"id": "warcrime", "name": "Warcrime"}
+    {"id": "warcrime", "name": "Warcrime"},
+    {"id": "wineeurope", "name": "WineEurope"}
   ],
   "tournament": null
 }
