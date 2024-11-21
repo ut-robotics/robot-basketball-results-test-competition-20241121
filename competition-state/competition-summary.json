@@ -1519,7 +1519,7 @@
         ],
         "startingBaskets": ["magenta", "blue"],
         "isTieAllowed": false,
-        "hasEnded": false,
+        "hasEnded": true,
         "rounds": [
           {
             "scores": [
@@ -1553,15 +1553,21 @@
             ],
             "fouls": [[], []],
             "baskets": ["blue", "magenta"],
-            "hasEnded": false,
-            "isConfirmed": false,
-            "duration": 14842,
+            "hasEnded": true,
+            "isConfirmed": true,
+            "duration": 60065,
             "timeLimit": 60000,
-            "winnerIndex": -1,
-            "runs": [{"startTime": 1732219074284, "endTime": null}]
+            "winnerIndex": 1,
+            "runs": [{"startTime": 1732219074284, "endTime": 1732219134349}]
           }
         ],
-        "status": {"result": "unknown"},
+        "status": {
+          "result": "won",
+          "winner": {"id": "marvin", "name": "Marvin"},
+          "roundWinCount": 2,
+          "roundLossCount": 0,
+          "roundTieCount": 0
+        },
         "ballPlacement": [
           [0, 0],
           [-1.77, 0.9],
@@ -1574,6 +1580,43 @@
           [-0.66, 0.01],
           [1.55, -0.63],
           [-1.55, 0.63]
+        ]
+      },
+      {
+        "id": 1019,
+        "robots": [
+          {"id": "roboorikud", "name": "Roboorikud"},
+          {"id": "marvin", "name": "Marvin"}
+        ],
+        "startingBaskets": ["blue", "magenta"],
+        "isTieAllowed": false,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["blue", "magenta"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [-2.18, 0.51],
+          [2.18, -0.51],
+          [-0.07, -0.97],
+          [0.07, 0.97],
+          [-0.48, 0.83],
+          [0.48, -0.83],
+          [-1.52, -0.33],
+          [1.52, 0.33],
+          [-0.66, -0.78],
+          [0.66, 0.78]
         ]
       }
     ],
@@ -1595,10 +1638,11 @@
       "1015": "oneLoss",
       "1016": "oneLoss",
       "1017": "noLoss",
-      "1018": "oneLoss"
+      "1018": "oneLoss",
+      "1019": "oneLoss"
     },
     "noLossQueue": [{"id": "oopsie", "name": "Oopsie"}],
-    "oneLossQueue": [{"id": "roboorikud", "name": "Roboorikud"}],
+    "oneLossQueue": [],
     "eliminatedRobots": [
       {"id": "plus-aura", "name": "+aura"},
       {"id": "k4", "name": "K4"},
@@ -1606,16 +1650,17 @@
       {"id": "harm", "name": "HARM"},
       {"id": "warcrime", "name": "Warcrime"},
       {"id": "lebrobot-james", "name": "LeBROBOT JAMES"},
-      {"id": "pelta-x", "name": "Pelta X"}
+      {"id": "pelta-x", "name": "Pelta X"},
+      {"id": "wineeurope", "name": "WineEurope"}
     ],
     "robotStartingBaskets": {
-      "marvin": ["blue", "magenta", "blue", "blue", "blue"],
+      "marvin": ["blue", "magenta", "blue", "blue", "blue", "magenta"],
       "plus-aura": ["magenta", "blue"],
       "harm": ["blue", "magenta", "blue"],
       "lebrobot-james": ["magenta", "magenta", "magenta", "blue"],
       "oopsie": ["blue", "blue", "magenta", "magenta"],
       "k4": ["magenta", "magenta"],
-      "roboorikud": ["blue", "magenta", "blue"],
+      "roboorikud": ["blue", "magenta", "blue", "blue"],
       "warcrime": ["magenta", "blue", "magenta"],
       "wineeurope": ["blue", "blue", "magenta", "magenta"],
       "mait": ["magenta", "blue"],
@@ -1631,7 +1676,7 @@
     ],
     "startingBaskets": ["magenta", "blue"],
     "isTieAllowed": false,
-    "hasEnded": false,
+    "hasEnded": true,
     "rounds": [
       {
         "scores": [
@@ -1665,15 +1710,21 @@
         ],
         "fouls": [[], []],
         "baskets": ["blue", "magenta"],
-        "hasEnded": false,
-        "isConfirmed": false,
-        "duration": 14843,
+        "hasEnded": true,
+        "isConfirmed": true,
+        "duration": 60065,
         "timeLimit": 60000,
-        "winnerIndex": -1,
-        "runs": [{"startTime": 1732219074284, "endTime": null}]
+        "winnerIndex": 1,
+        "runs": [{"startTime": 1732219074284, "endTime": 1732219134349}]
       }
     ],
-    "status": {"result": "unknown"},
+    "status": {
+      "result": "won",
+      "winner": {"id": "marvin", "name": "Marvin"},
+      "roundWinCount": 2,
+      "roundLossCount": 0,
+      "roundTieCount": 0
+    },
     "ballPlacement": [
       [0, 0],
       [-1.77, 0.9],
