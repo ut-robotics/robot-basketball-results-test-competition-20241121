@@ -117,7 +117,8 @@
           "startTime": 1732214138574,
           "didScore": false,
           "robot": {"id": "lebrobot-james", "name": "LeBROBOT JAMES"},
-          "endTime": 1732214148588
+          "endTime": 1732214148588,
+          "isConfirmed": true
         }
       ]
     ],
