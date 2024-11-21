@@ -33,27 +33,29 @@
       {"id": "mait", "name": "Mait"},
       {"id": "pelta-x", "name": "Pelta X"}
     ],
-    "gameIDs": [1001, 1002],
-    "gameTypes": {"1001": "noLoss", "1002": "noLoss"},
+    "gameIDs": [1001, 1002, 1003],
+    "gameTypes": {"1001": "noLoss", "1002": "noLoss", "1003": "noLoss"},
     "noLossQueue": [
-      {"id": "oopsie", "name": "Oopsie"},
-      {"id": "k4", "name": "K4"},
       {"id": "roboorikud", "name": "Roboorikud"},
       {"id": "warcrime", "name": "Warcrime"},
       {"id": "wineeurope", "name": "WineEurope"},
       {"id": "mait", "name": "Mait"},
       {"id": "pelta-x", "name": "Pelta X"},
-      {"id": "marvin", "name": "Marvin"}
+      {"id": "marvin", "name": "Marvin"},
+      {"id": "harm", "name": "HARM"}
     ],
-    "oneLossQueue": [{"id": "plus-aura", "name": "+aura"}],
+    "oneLossQueue": [
+      {"id": "plus-aura", "name": "+aura"},
+      {"id": "lebrobot-james", "name": "LeBROBOT JAMES"}
+    ],
     "eliminatedRobots": [],
     "robotStartingBaskets": {
       "marvin": ["blue"],
       "plus-aura": ["magenta"],
       "harm": ["blue"],
       "lebrobot-james": ["magenta"],
-      "oopsie": [],
-      "k4": [],
+      "oopsie": ["blue"],
+      "k4": ["magenta"],
       "roboorikud": [],
       "warcrime": [],
       "wineeurope": [],

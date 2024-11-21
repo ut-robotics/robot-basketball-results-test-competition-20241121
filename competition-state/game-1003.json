@@ -1,0 +1,31 @@
+{
+  "id": 1003,
+  "robots": [{"id": "oopsie", "name": "Oopsie"}, {"id": "k4", "name": "K4"}],
+  "startingBaskets": ["blue", "magenta"],
+  "isTieAllowed": false,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "baskets": ["blue", "magenta"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [0.55, 1.44],
+    [-0.55, -1.44],
+    [0.09, -0.34],
+    [-0.09, 0.34],
+    [0.5, -0.73],
+    [-0.5, 0.73],
+    [0.8, 0.8],
+    [-0.8, -0.8],
+    [1.17, 1.1],
+    [-1.17, -1.1]
+  ]
+}

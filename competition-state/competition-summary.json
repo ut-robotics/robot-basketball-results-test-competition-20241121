@@ -117,7 +117,7 @@
         ],
         "startingBaskets": ["blue", "magenta"],
         "isTieAllowed": false,
-        "hasEnded": false,
+        "hasEnded": true,
         "rounds": [
           {
             "scores": [
@@ -168,19 +168,26 @@
               [{"time": 1732210528081}, {"time": 1732210645255}]
             ],
             "baskets": ["blue", "magenta"],
-            "hasEnded": false,
-            "isConfirmed": false,
-            "duration": 51061,
+            "hasEnded": true,
+            "isConfirmed": true,
+            "duration": 60004,
             "timeLimit": 60000,
-            "winnerIndex": -1,
+            "winnerIndex": 0,
             "runs": [
               {"startTime": 1732210502212, "endTime": 1732210507213},
               {"startTime": 1732210543549, "endTime": 1732210566966},
-              {"startTime": 1732210617801, "endTime": 1732210640444}
+              {"startTime": 1732210617801, "endTime": 1732210640444},
+              {"startTime": 1732210676211, "endTime": 1732210685154}
             ]
           }
         ],
-        "status": {"result": "unknown"},
+        "status": {
+          "result": "won",
+          "winner": {"id": "harm", "name": "HARM"},
+          "roundWinCount": 2,
+          "roundLossCount": 0,
+          "roundTieCount": 1
+        },
         "ballPlacement": [
           [0, 0],
           [1.74, -0.95],
@@ -194,28 +201,67 @@
           [2.1, 0.62],
           [-2.1, -0.62]
         ]
+      },
+      {
+        "id": 1003,
+        "robots": [
+          {"id": "oopsie", "name": "Oopsie"},
+          {"id": "k4", "name": "K4"}
+        ],
+        "startingBaskets": ["blue", "magenta"],
+        "isTieAllowed": false,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["blue", "magenta"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [0.55, 1.44],
+          [-0.55, -1.44],
+          [0.09, -0.34],
+          [-0.09, 0.34],
+          [0.5, -0.73],
+          [-0.5, 0.73],
+          [0.8, 0.8],
+          [-0.8, -0.8],
+          [1.17, 1.1],
+          [-1.17, -1.1]
+        ]
       }
     ],
-    "gameTypes": {"1001": "noLoss", "1002": "noLoss"},
+    "gameTypes": {"1001": "noLoss", "1002": "noLoss", "1003": "noLoss"},
     "noLossQueue": [
-      {"id": "oopsie", "name": "Oopsie"},
-      {"id": "k4", "name": "K4"},
       {"id": "roboorikud", "name": "Roboorikud"},
       {"id": "warcrime", "name": "Warcrime"},
       {"id": "wineeurope", "name": "WineEurope"},
       {"id": "mait", "name": "Mait"},
       {"id": "pelta-x", "name": "Pelta X"},
-      {"id": "marvin", "name": "Marvin"}
+      {"id": "marvin", "name": "Marvin"},
+      {"id": "harm", "name": "HARM"}
     ],
-    "oneLossQueue": [{"id": "plus-aura", "name": "+aura"}],
+    "oneLossQueue": [
+      {"id": "plus-aura", "name": "+aura"},
+      {"id": "lebrobot-james", "name": "LeBROBOT JAMES"}
+    ],
     "eliminatedRobots": [],
     "robotStartingBaskets": {
       "marvin": ["blue"],
       "plus-aura": ["magenta"],
       "harm": ["blue"],
       "lebrobot-james": ["magenta"],
-      "oopsie": [],
-      "k4": [],
+      "oopsie": ["blue"],
+      "k4": ["magenta"],
       "roboorikud": [],
       "warcrime": [],
       "wineeurope": [],
@@ -232,7 +278,7 @@
     ],
     "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": false,
-    "hasEnded": false,
+    "hasEnded": true,
     "rounds": [
       {
         "scores": [
@@ -283,19 +329,26 @@
           [{"time": 1732210528081}, {"time": 1732210645255}]
         ],
         "baskets": ["blue", "magenta"],
-        "hasEnded": false,
-        "isConfirmed": false,
-        "duration": 51061,
+        "hasEnded": true,
+        "isConfirmed": true,
+        "duration": 60004,
         "timeLimit": 60000,
-        "winnerIndex": -1,
+        "winnerIndex": 0,
         "runs": [
           {"startTime": 1732210502212, "endTime": 1732210507213},
           {"startTime": 1732210543549, "endTime": 1732210566966},
-          {"startTime": 1732210617801, "endTime": 1732210640444}
+          {"startTime": 1732210617801, "endTime": 1732210640444},
+          {"startTime": 1732210676211, "endTime": 1732210685154}
         ]
       }
     ],
-    "status": {"result": "unknown"},
+    "status": {
+      "result": "won",
+      "winner": {"id": "harm", "name": "HARM"},
+      "roundWinCount": 2,
+      "roundLossCount": 0,
+      "roundTieCount": 1
+    },
     "ballPlacement": [
       [0, 0],
       [1.74, -0.95],
