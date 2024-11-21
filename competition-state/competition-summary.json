@@ -14,5 +14,91 @@
     {"id": "wineeurope", "name": "WineEurope"},
     {"id": "harm", "name": "HARM"}
   ],
-  "tournament": null
+  "tournament": {
+    "swissEnabled": false,
+    "numberOfSwissRounds": 4,
+    "doubleEliminationEnabled": true
+  },
+  "doubleEliminationTournament": {
+    "robots": [
+      {"id": "marvin", "name": "Marvin"},
+      {"id": "plus-aura", "name": "+aura"},
+      {"id": "harm", "name": "HARM"},
+      {"id": "lebrobot-james", "name": "LeBROBOT JAMES"},
+      {"id": "oopsie", "name": "Oopsie"},
+      {"id": "k4", "name": "K4"},
+      {"id": "roboorikud", "name": "Roboorikud"},
+      {"id": "warcrime", "name": "Warcrime"},
+      {"id": "wineeurope", "name": "WineEurope"},
+      {"id": "mait", "name": "Mait"},
+      {"id": "pelta-x", "name": "Pelta X"}
+    ],
+    "games": [
+      {
+        "id": 1001,
+        "robots": [
+          {"id": "marvin", "name": "Marvin"},
+          {"id": "plus-aura", "name": "+aura"}
+        ],
+        "startingBaskets": ["blue", "magenta"],
+        "isTieAllowed": false,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["blue", "magenta"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [-0.98, 1.06],
+          [0.98, -1.06],
+          [0.98, 1.01],
+          [-0.98, -1.01],
+          [0.67, -0.49],
+          [-0.67, 0.49],
+          [-0.01, -0.51],
+          [0.01, 0.51],
+          [0.61, -0.99],
+          [-0.61, 0.99]
+        ]
+      }
+    ],
+    "gameTypes": {"1001": "noLoss"},
+    "noLossQueue": [
+      {"id": "harm", "name": "HARM"},
+      {"id": "lebrobot-james", "name": "LeBROBOT JAMES"},
+      {"id": "oopsie", "name": "Oopsie"},
+      {"id": "k4", "name": "K4"},
+      {"id": "roboorikud", "name": "Roboorikud"},
+      {"id": "warcrime", "name": "Warcrime"},
+      {"id": "wineeurope", "name": "WineEurope"},
+      {"id": "mait", "name": "Mait"},
+      {"id": "pelta-x", "name": "Pelta X"}
+    ],
+    "oneLossQueue": [],
+    "eliminatedRobots": [],
+    "robotStartingBaskets": {
+      "marvin": ["blue"],
+      "plus-aura": ["magenta"],
+      "harm": [],
+      "lebrobot-james": [],
+      "oopsie": [],
+      "k4": [],
+      "roboorikud": [],
+      "warcrime": [],
+      "wineeurope": [],
+      "mait": [],
+      "pelta-x": []
+    },
+    "hasEnded": false
+  }
 }
