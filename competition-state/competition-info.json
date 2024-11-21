@@ -77,7 +77,7 @@
       "1019": "oneLoss",
       "1020": "firstFinal"
     },
-    "noLossQueue": [],
+    "noLossQueue": [{"id": "oopsie", "name": "Oopsie"}],
     "oneLossQueue": [],
     "eliminatedRobots": [
       {"id": "plus-aura", "name": "+aura"},
@@ -88,7 +88,8 @@
       {"id": "lebrobot-james", "name": "LeBROBOT JAMES"},
       {"id": "pelta-x", "name": "Pelta X"},
       {"id": "wineeurope", "name": "WineEurope"},
-      {"id": "roboorikud", "name": "Roboorikud"}
+      {"id": "roboorikud", "name": "Roboorikud"},
+      {"id": "marvin", "name": "Marvin"}
     ],
     "robotStartingBaskets": {
       "marvin": [
@@ -111,6 +112,6 @@
       "mait": ["magenta", "blue"],
       "pelta-x": ["blue", "magenta", "blue", "magenta"]
     },
-    "hasEnded": false
+    "hasEnded": true
   }
 }
