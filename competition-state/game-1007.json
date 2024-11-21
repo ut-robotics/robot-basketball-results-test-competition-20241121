@@ -1,0 +1,34 @@
+{
+  "id": 1007,
+  "robots": [
+    {"id": "plus-aura", "name": "+aura"},
+    {"id": "lebrobot-james", "name": "LeBROBOT JAMES"}
+  ],
+  "startingBaskets": ["blue", "magenta"],
+  "isTieAllowed": false,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "baskets": ["blue", "magenta"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [1.73, -0.62],
+    [-1.73, 0.62],
+    [2.05, 0.53],
+    [-2.05, -0.53],
+    [1.32, 1.21],
+    [-1.32, -1.21],
+    [-0.48, 1.38],
+    [0.48, -1.38],
+    [-1.11, 0.68],
+    [1.11, -0.68]
+  ]
+}
