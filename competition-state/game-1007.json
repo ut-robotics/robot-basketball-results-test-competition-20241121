@@ -126,7 +126,8 @@
           "startTime": 1732214245629,
           "didScore": false,
           "robot": {"id": "plus-aura", "name": "+aura"},
-          "endTime": 1732214247410
+          "endTime": 1732214247410,
+          "isConfirmed": true
         }
       ]
     ],
